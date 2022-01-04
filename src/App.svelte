@@ -6,7 +6,7 @@
 
 <main>
   <img src={logo} alt="Svelte Logo" />
-  <h1>Hello Typescript!</h1>
+  <h1>Hello Svelte!</h1>
 
   <Counter />
 
@@ -23,6 +23,11 @@
     text-align: center;
     padding: 1em;
     margin: 0 auto;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   img {
