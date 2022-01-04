@@ -21,8 +21,6 @@
 
   main {
     text-align: center;
-    padding: 1em;
-    margin: 0 auto;
     width: 100vw;
     min-height: 100vh;
     display: flex;
